@@ -1,3 +1,116 @@
 /* Define your CSS styles here */
 /* Remember to validate your CSS at https://jigsaw.w3.org/css-validator/ */
 
+/*.Teclado{
+  width: 800px;
+  height: 320px;
+  background-color: #111;
+  margin: 0px auto;
+  border-radius: 9px;
+  padding: 30px;
+  color: #eee;
+  flex-wrap: nowrap;
+}*/
+.fila {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: center;
+  background-color: #000;
+  color: #fff;
+  height: 40px;
+}
+
+.fila > div{
+  margin: 1px;
+  margin-top: 2px;
+  text-align: center;
+  padding-top: 6px;
+}
+
+.tecla {
+  background-color: #555555;
+  font-size: 20px;
+  width: 40px;
+  margin: 5px;
+  border-radius: 5px;
+}
+.tecla:hover{
+  background: gray;
+}
+.tecla:active{
+  background: #fff;
+  color: #000;
+}
+
+.EnterShift {
+  background-color: orange;
+  margin-top: 2px;
+  font-size: 15px;
+  border-radius: 7px;
+  width: 100px;
+}
+.EnterShift:hover{
+  background: #d25b01;
+}
+.EnterShift:active{
+  background: #fff;
+  color: #000;
+}
+
+.tab {
+  background-color: #555555;
+  margin-top:2px;
+  font-size: 15px;
+  width: 75px;
+  border-radius: 8px;
+}
+.tab:hover{
+  background: gray;
+}
+.tab:active{
+  background: #fff;
+  color: #000;
+}
+
+.bksp {
+  background-color: #555555;
+  margin-top: 2px;
+  font-size: 15px;
+  border-radius: 8px;
+  width: 100px;
+}
+.bksp:hover{
+  background: gray;
+}
+.bksp:active{
+  background: #fff;
+  color: #000;
+}
+
+.CancelAccept {
+  background-color: orange;
+  margin-top: 2px;
+  font-size: 15px;
+  border-radius: 8px;
+  width: 80px;
+}
+.CancelAccept:hover{
+  background: #d25b01;
+}
+.CancelAccept:active{
+  background: #fff;
+  color: #000;
+}
+
+.Espacio {
+  width: 320px;
+  margin-top: 2px;
+  border-radius: 8px;
+  background-color: #555555;
+}
+.Espacio:hover{
+  background: gray;
+}
+.Espacio:active{
+  background: #fff;
+}
